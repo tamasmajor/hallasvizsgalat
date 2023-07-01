@@ -21,7 +21,7 @@ jobs:
       - name: Build for production
         run: npm run build
 
-      - name: Deploy
+      - name: Publish
         uses: JamesIves/github-pages-deploy-action@4.1.1
         with:
           branch: gh-pages
