@@ -1,0 +1,20 @@
+{
+  "name": "hallasvizsgalat",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/tamasmajor/hallasvizsgalat.git",
+  "author": "Tamas Major",
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack serve --open --config webpack.dev.config.js",
+    "build": "rimraf dist && webpack"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^5.5.3",
+    "rimraf": "^5.0.1",
+    "webpack": "^5.88.1",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1",
+    "webpack-livereload-plugin": "^3.0.2"
+  }
+}
