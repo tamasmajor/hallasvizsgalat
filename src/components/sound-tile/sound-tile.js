@@ -51,7 +51,7 @@ const css = `
         }
 
         div.left {
-            background: url(assets/images/_headphones_left.svg) no-repeat;
+            background: url(assets/images/headphones_left.svg) no-repeat;
             background-position: 2px 3px;
         }
 
@@ -61,7 +61,7 @@ const css = `
         }
 
         div.right {
-            background: url(assets/images/_headphones_right.svg) no-repeat;
+            background: url(assets/images/headphones_right.svg) no-repeat;
             background-position: 2px 3px;
         }
 
