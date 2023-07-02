@@ -45,7 +45,6 @@ const css = `
 
         div.headphone {
             background-size: contain;
-            
             width: 38px;
             height: 38px;
         }
