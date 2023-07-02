@@ -1,6 +1,7 @@
 const path = require("path");
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const LiveReloadPlugin = require('webpack-livereload-plugin');
+const CopyPlugin = require("copy-webpack-plugin");
 
 module.exports = {
   mode: "development",
@@ -18,6 +19,11 @@ module.exports = {
     clean: true
   },
   plugins: [
+    new CopyPlugin({
+      patterns: [
+        { from: "public/assets", to: "assets" }
+      ]
+    }),
     new HtmlWebpackPlugin({
       inject: true,
       template: './public/index.html',

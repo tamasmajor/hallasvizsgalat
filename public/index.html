@@ -7,6 +7,26 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
     <body>
-        <h1>Hello!!!!</h1>
+        <style>
+            body {
+                background-color: #F3E5F5;
+            }
+
+            .holder {
+                max-width: 100vw;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-evenly;
+            }
+
+            sound-tile {
+                margin-top: 48px;
+                margin-right: 64px;
+            }
+        </style>
+        <div class="holder">
+            <sound-tile image="./assets/images/dog.png"></sound-tile>
+            <sound-tile image="./assets/images/cat.png"></sound-tile>
+        </div>
     </body>
 </html>

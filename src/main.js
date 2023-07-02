@@ -1,3 +1,1 @@
-window.onload = function() {
-    console.log('Hello console!');
-}
+import "./components/sound-tile/sound-tile.js"

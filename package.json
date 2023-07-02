@@ -10,6 +10,7 @@
     "build": "rimraf dist && webpack"
   },
   "devDependencies": {
+    "copy-webpack-plugin": "^11.0.0",
     "html-webpack-plugin": "^5.5.3",
     "rimraf": "^5.0.1",
     "webpack": "^5.88.1",
